@@ -32,6 +32,7 @@ import java.util.List;
  * -- 编码需求如下，所有订单中：
  * 1，productName为空（包括空白字符串）置为删除状态
  * 2，下单状态保持超过两个小时置为删除状态
+ * 3, 以多线程方式实现
  * @date 2017-12-26 16:14
  */
 public class Tests {
