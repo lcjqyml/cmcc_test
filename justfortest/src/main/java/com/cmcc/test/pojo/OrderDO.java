@@ -28,7 +28,7 @@ public class OrderDO {
 
 
     /**
-     * 订单编号
+     * 订单编号，主键
      */
     public Long getOrderId() {
         return orderId;
